@@ -1,0 +1,77 @@
+body{
+    background-color: #f1f3f2;
+    font-family: Georgia;
+    font-size: 20px;
+    color: #9f8d86;
+}
+.photo, .contact, .skills,.lenguajes{
+    width: 50vh;
+}
+.flex-container{
+    display: flex;                     
+    flex-direction: row;               
+    justify-content: space-around;     
+    align-items: center;               
+    height: 100%; 
+    margin-left: 280px; 
+    margin-top: 40px;            
+}
+.flex-container > div{
+    display: flex;                    
+    flex-direction: column;            
+    justify-content: center;            
+    /* align-items: center;   */
+    width: 50%; 
+}
+.photo{
+    width: 35vh;
+    height: 35vh;
+    border-radius: 100%;
+}
+h1{
+    color: #a68c7a;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 60px;
+    margin-left: -300px;
+    margin-bottom: -25px;
+}
+h2{
+    color: #b28d87;
+    display: inline-block;           /* Necesario para que el borde se ajuste al texto */
+    padding: 10px 50px;              /* Espacio interno para que el borde rodee el texto */
+    border: 4px solid #b28d87;           /* Borde de 2px de grosor y color rojo */
+    border-radius:150px;              /* Hace el borde circular */
+    text-align: center; 
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.position{
+    
+    margin-left: -280px;   
+}
+.about-me{
+    padding-top: 57px;
+}
+.experience{
+    padding-top: 15px;
+}
+.skills{
+    border: none;
+}
+.skills .road-mapping{
+    margin-right: 50px;
+}
+.skills .spreadsheet{
+    margin-right: 72px;
+}
+.skills .SEO{
+    margin-right: 141px;
+}
+.skills .digital-ads{
+    margin-right: 82px;
+}
+.course-university, .job{
+    font-weight: 900;
+}
