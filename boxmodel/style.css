@@ -27,6 +27,8 @@ p{
 .parrafo-1 {
     background-color: lightcoral;
     background-clip: border-box;
+    width: 400px;
+    height: 300px;
 }
 .parrafo-2{
     background-color: aqua;
@@ -40,4 +42,13 @@ h2{
     background: linear-gradient(90deg, rgba(255,0,0,0.5), rgba(255,0,0,1));
     background-clip: text;
     color: transparent;
+}
+
+span{
+    color: saddlebrown;
+    background-color: lightskyblue;
+    border: 3px solid rosybrown;
+    padding: 10px;
+    margin: 16px;
+    display:inline-block;
 }
