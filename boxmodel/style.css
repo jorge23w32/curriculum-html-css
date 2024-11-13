@@ -1,0 +1,43 @@
+body{
+    background-color: beige;
+}
+
+h1{
+    background-color: lightblue;
+    /* Box model: */
+    padding-block-start: 16px;
+    padding-block-end: 20px;
+    /* padding-block: 16px 20px*/
+    padding-inline-start: 10px;
+    padding-inline-end: 50px;
+    /* padding-inline: 10px 50px*/
+    /* El borde del elemento o contenedor */
+    border: 10px  double rebeccapurple;
+    margin-block-start: 50px;
+    margin-block-end: 100px;
+    margin-inline-start: 20px;
+    margin-inline-end: 30px;
+}
+
+p{
+    background-color: lightgray;
+    padding: 16px;
+    border: 5px dashed black;
+}
+.parrafo-1 {
+    background-color: lightcoral;
+    background-clip: border-box;
+}
+.parrafo-2{
+    background-color: aqua;
+    background-clip: padding-box;
+}
+.parrafo-3{
+    background-color: lightgreen;
+    background-clip: content-box;
+}
+h2{
+    background: linear-gradient(90deg, rgba(255,0,0,0.5), rgba(255,0,0,1));
+    background-clip: text;
+    color: transparent;
+}
